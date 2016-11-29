@@ -1,17 +1,22 @@
-# How did viewing a diff between two versions of a file help you see the bug that was introduced?
-It helped me to find the bug faster, by indicating the line where the misspelling happened.
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	It helped me to find the bug faster, by indicating the line where the misspelling happened.
 
-# How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-If something goes wrong I can easily go back to a previous version to find what and when the code went wrong.
 
-# What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
-The pros is that you have more control and you won't have problems of having too many commits to deal with later if needed. The cons is that you can miss the right timing to commit.
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	If something goes wrong I can easily go back to a previous version to find what and when the code went wrong.
 
-# Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	The pros is that you have more control and you won't have problems of having too many commits to deal with later if needed. The cons is that you can miss the right timing to commit.
+
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like 	Google Docs, treat each file separately?
 Git was built for development version control, where multiple files being co-related is more common.
 
-# How can you use the commands git log and git diff to view the history of files?
-Using the command line, I can fetch the IDs of commits with log and compare the changes between them with diff.
 
-# How might using version control make you more confident to make changes that could break something?
-Knowing that any breaks are reversable gives confidence to do the changes.
+Q: How can you use the commands git log and git diff to view the history of files?
+	Using the command line, I can fetch the IDs of commits with log and compare the changes between them with diff.
+
+
+Q: How might using version control make you more confident to make changes that could break something?
+	Knowing that any breaks are reversable gives confidence to do the changes.
