@@ -14,3 +14,6 @@ Q: What is the benefit of having a copy of the last known state of the remote st
 
 Q: How would you collaborate without using Git or GitHub?  What would be easier and what would be harder?
 	Using heavy documentation and duplicates of code files. It would be harder to maintain the different states/versions without Git.
+
+Q: When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+	When implementing new features that won't be ready or need testing/approval, fixing bugs on crucial parts of the code or when making pull requests or collaborating in any other sort. It gives more security that the master branch won't crash. However, when these cares aren't needed, it's easier to deal with just master brach.
